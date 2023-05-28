@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-05-28 09:04:43
+#  创建时间：2023-05-28 09:11:53
 #  模版：v2rayse默认模版
-#  节点数量：26
+#  节点数量：40
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,223 +13,323 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"Reality+2_1","server":"49.13.6.89","port":443,"uuid":"Legenderyking","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@LegenderY_Servers"},"servername":"sdk.crazygames.com"}
-  - {"type":"vless","name":"@v2rayngrit🌀_1","server":"mci-MsV2ray.ddns.net","port":2087,"uuid":"9b36de1c-395b-4e45-8299-44ca96a95290","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@MsV2ray"},"servername":"tm.MsV2ray.fun"}
-  - {"type":"vmess","name":"𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶","ws-opts":{"path":"/6rXqecLmchrWkX7cy1ilLjMBLUC","headers":{"host":"de18.irteh.fun"}},"server":"ns1.v2-vip.fun","port":"80","uuid":"a6457d28-e328-4202-99fe-0606d7ad69a9","alterId":"0","cipher":"chacha20-poly1305","network":"ws"}
-  - {"type":"vmess","name":"@Maznet_1","server":"51.89.74.241","port":"51102","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vless","name":"@confiig_vpn_1","server":"65.109.193.173","port":28545,"uuid":"c9441e0f-41ba-4370-daa7-a29107b57b33","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"@confiig_vpn_2","server":"65.109.193.173","port":28545,"uuid":"c9441e0f-41ba-4370-daa7-a29107b57b33","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vmess","name":"@MehradLearn|مرگبردیکتاتور","grpc-opts":{"grpc-service-name":"/"},"server":"frcm.hellocloud.cf","port":"2053","uuid":"edea3980-6ad4-4c82-9710-9b00fb380e87","alterId":"0","cipher":"auto","network":"grpc","tls":true}
-  - {"type":"vmess","name":"@vmesskhodam🤍","ws-opts":{"path":"/","headers":{"host":"info.mashshop.top"}},"server":"irmci-netazad22.ddns.net","port":"2087","uuid":"70ac45a7-5e78-4545-b7d5-5c4a1d67ee13","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"Reality+2_2","server":"49.13.6.89","port":443,"uuid":"Legenderyking","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@LegenderY_Servers"},"servername":"sdk.crazygames.com"}
-  - {"type":"vless","name":"@v2rayngrit🌀_2","server":"mci-MsV2ray.ddns.net","port":2087,"uuid":"9b36de1c-395b-4e45-8299-44ca96a95290","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@MsV2ray"},"servername":"tm.MsV2ray.fun"}
+  - {"type":"vmess","name":"کانالتلگرام👈filtershekan_channel@_1","http-opts":{"path":["/"],"headers":{"Host":["digicert.com"]}},"server":"helixservers2.seatech.ir","port":"10010","uuid":"ad47b3d7-d248-4414-cbc7-98828e7b9b5d","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vless","name":"WomanLifeFreedom","server":"139.162.176.75","port":443,"uuid":"78215585-8f97-0501-2023-d8b924b1ac89","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20230528.quranglobal-av.link","ws-opts":{"path":"/alive","headers":{"host":"20230528.quranglobal-av.link"}}}
   - {"type":"vmess","name":"telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1","http-opts":{"path":["/"],"headers":{"Host":["fast.com"]}},"server":"91.107.177.40","port":"443","uuid":"5d310e73-c025-4b24-d7e8-2799fe78741e","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2","http-opts":{"path":["/"],"headers":{"Host":["speedtest.net"]}},"server":"91.107.177.40","port":"81","uuid":"e96dd2d5-89c8-4ebd-a8f6-49db27530e80","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3","http-opts":{"path":["/"],"headers":{"Host":["fast.com"]}},"server":"91.107.177.40","port":"803","uuid":"46283d87-71df-44aa-c216-dd919ff80aad","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4","http-opts":{"path":["/"]},"server":"91.107.177.40","port":"8443","uuid":"6b229894-89ea-48d3-c5e9-384e985db090","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vless","name":"Channel+id:+🇩🇪","server":"116.203.164.35","port":443,"uuid":"95edfdc5-837c-40d4-8993-5c95f607531f","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"www.speedtest.net","tls":false,"udp":true}
-  - {"type":"vmess","name":"@Maznet_2","grpc-opts":{"grpc-service-name":"/"},"server":"8.208.19.164","port":"2096","uuid":"76babb0f-5b6c-4f3a-cba9-48c2c24f8a84","alterId":"0","cipher":"auto","network":"grpc","tls":true}
-  - {"type":"vmess","name":"کانالتلگرام👈filtershekan_channel@","http-opts":{"path":["/"],"headers":{"Host":["uplod.ir"]}},"server":"tr.gamecentervip.site","port":"443","uuid":"d49e2bf0-c652-4a72-b153-b122ab2f23d6","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vless","name":"کانال+تلگرام👈filtershekan_channel@","server":"fra.chigua.tk","port":443,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"edge.020770.xyz","ws-opts":{"path":"/vless/b0138d55-a493-4dc3-9932-c6f0391707c1?ed=2048","headers":{"host":"edge.020770.xyz"}}}
+  - {"type":"vmess","name":"✅️Join@FreenapsternetV15","server":"51.89.74.241","port":"51102","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@MehradLearn|مرگبردیکتاتور","grpc-opts":{"grpc-service-name":"/"},"server":"frcm.hellocloud.cf","port":"2053","uuid":"edea3980-6ad4-4c82-9710-9b00fb380e87","alterId":"0","cipher":"auto","network":"grpc","tls":true}
+  - {"type":"vless","name":"@v2rayngrit🌀","server":"mci-msv2ray.ddns.net","port":2087,"uuid":"7b36de1c-395b-4e45-8299-44ca96a95290","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@MsV2ray"},"servername":"tm.MsV2ray.fun"}
+  - {"type":"vless","name":"@melov2ray-reality4","server":"de2.melov2ray.shop","port":10084,"uuid":"1acdd8a4-5bda-4cd0-f8ed-3e410380d5f7","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"eset.com","tls":false,"udp":true}
+  - {"type":"vmess","name":"@vmesskhodam🤍","ws-opts":{"path":"/","headers":{"host":"info.mashshop.top"}},"server":"irmci-netazad22.ddns.net","port":"2087","uuid":"70ac45a7-5e78-4545-b7d5-5c4a1d67ee13","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg","server":"159.69.102.101","port":443,"uuid":"dcb5e1b6-9aca-4399-dae4-d0a400c2b3d0","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"co3.testmy.net","tls":false,"udp":true}
+  - {"type":"vless","name":"@melov2ray-reality3","server":"de2.melov2ray.shop","port":45314,"uuid":"2777de98-2a21-45bc-a1e3-d255086c7710","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"discord.com","tls":false,"udp":true}
+  - {"type":"vless","name":"@injectorCuatomVpn","server":"mtn.msv2ray.space","port":2083,"uuid":"26d22529-b92a-40de-86c2-591d195a2d55","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@MsV2ray"},"servername":"tm.MsV2ray.cfd"}
+  - {"type":"vmess","name":"@Maznet","grpc-opts":{"grpc-service-name":"/"},"server":"8.208.19.164","port":"2096","uuid":"76babb0f-5b6c-4f3a-cba9-48c2c24f8a84","alterId":"0","cipher":"auto","network":"grpc","tls":true}
+  - {"type":"ss","name":"channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️","server":"49.13.2.107","port":34723,"cipher":"aes-256-gcm","password":"jsCRbM6fSy"}
+  - {"type":"vless","name":"@parsashonam+-Germany🇩🇪+mtn","server":"irancell.tel-parsashonam.website","port":25945,"uuid":"dde944ac-f6df-4a57-ca22-80f624562dfa","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"کانال+تلگرام👈@vpnarg🇩🇪","server":"cdimage.reimagined.uno","port":443,"uuid":"0809caa1-1717-4829-a22f-d58fd441f4b6","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"cdimage.debian.org","tls":false,"udp":true}
+  - {"type":"vless","name":"channel+telegram:@v2rayNG_WED+|+all✔️_1","server":"104.25.188.126","port":80,"uuid":"b755f23a-ac1f-4fd0-9eec-79ca39734a23","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"speed.cloudflare.de.pngimage.sbs","ws-opts":{"path":"/","headers":{"host":"speed.cloudflare.de.pngimage.sbs"}}}
+  - {"type":"vless","name":"channel+telegram:@v2rayNG_WED+|+all✔️_2","server":"pv-mtn.goli.one","port":2087,"uuid":"370e26ea-1906-4044-c095-8e3e28d420fd","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"panel.behdadbakhtiyari.site"}
+  - {"type":"trojan","name":"کانال+تلگرام+👈+|+FAST_IR@","server":"13.38.124.2","port":24667,"password":"1a82077d-1bd1-4345-bb73-b3b26c41b978","udp":true,"skip-cert-verify":true,"sni":"tls.microsoft-orgwly.vip","network":"tcp"}
+  - {"type":"trojan","name":"H7(@Outline_Vpn)","server":"217.79.184.76","port":443,"password":"f66d4fdd-71a2-4041-abf7-f4e121dfd789","udp":true,"skip-cert-verify":true,"sni":"18-140-66-207.nhost.00cdn.com","network":"tcp"}
+  - {"type":"vless","name":"کانال+تلگرام👈@vpnarg❤️","server":"de2.melov2ray.shop","port":45315,"uuid":"2777de98-2a21-45bc-a1e3-d255086c7710","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"discord.com","tls":false,"udp":true}
   - {"type":"vless","name":"📍@Gp_proxy_vpn+👈گروه+کانفیگ","server":"95.179.160.117","port":443,"uuid":"32d34f16-d6b4-4c7e-8254-5809776eb7a3","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@proxyorj    
     @proxyorj        @amin_bbc سازنده کانفیگ      @proxyorj  
     @proxyorj"},"servername":"i.aminbbc.monster"}
-  - {"type":"trojan","name":"کانال+تلگرام+👈+|+FAST_IR@","server":"13.38.124.2","port":24667,"password":"1a82077d-1bd1-4345-bb73-b3b26c41b978","udp":true,"skip-cert-verify":true,"sni":"tls.microsoft-orgwly.vip","network":"tcp"}
-  - {"type":"ss","name":"channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️","server":"49.13.2.107","port":34723,"cipher":"aes-256-gcm","password":"jsCRbM6fSy"}
-  - {"type":"ss","name":"channel+telegram:@v2rayNG_WED+|+سرعتی🪤","server":"[::ffff:3624:aeb5]","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vless","name":"کانال+تلگرام👈@vpnarg😐","server":"128.140.2.6","port":443,"uuid":"Legenderyking","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@LegenderY_Servers"},"servername":"zula.ir"}
-  - {"type":"vless","name":"کانال+تلگرام👈@vpnarg❤️","server":"de2.melov2ray.shop","port":45315,"uuid":"2777de98-2a21-45bc-a1e3-d255086c7710","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"discord.com","tls":false,"udp":true}
-  - {"type":"vless","name":"همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg","server":"159.69.102.101","port":443,"uuid":"dcb5e1b6-9aca-4399-dae4-d0a400c2b3d0","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision-udp443","servername":"co3.testmy.net","tls":false,"udp":true}
-  - {"type":"vless","name":"کانال+تلگرام👈@vpnarg🇩🇪","server":"cdimage.reimagined.uno","port":443,"uuid":"0809caa1-1717-4829-a22f-d58fd441f4b6","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"cdimage.debian.org","tls":false,"udp":true}
+  - {"type":"vless","name":"Reality+2","server":"49.13.6.89","port":443,"uuid":"Legenderyking","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@LegenderY_Servers"},"servername":"sdk.crazygames.com"}
+  - {"type":"vless","name":"T.me/SafeNet_Server+💚🤍❤","server":"49.13.6.89","port":21594,"uuid":"48be8741-b73f-48ca-dab7-233f299c623b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"ftp.debian.org"}
   - {"type":"vless","name":"کانال+تلگرام👈@vpnarg","server":"91.107.183.82","port":29047,"uuid":"1dedc44f-6e87-4635-f13a-07fd84e9b177","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"Reality+1","server":"49.13.15.89","port":443,"uuid":"Legenderyking","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@LegenderY_Servers"},"servername":"zula.ir"}
+  - {"type":"vless","name":"MTN@VPNS_IR","server":"92e0cb4d-6adf-44fd-c061-93f7f536f49392e0cb4d-6adf-44fd-c0.vpncustomize.sbs","port":18399,"uuid":"VPNS_IR","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vmess","name":"𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶","ws-opts":{"path":"/6rXqecLmchrWkX7cy1ilLjMBLUC","headers":{"host":"de18.irteh.fun"}},"server":"ns1.v2-vip.fun","port":"80","uuid":"a6457d28-e328-4202-99fe-0606d7ad69a9","alterId":"0","cipher":"chacha20-poly1305","network":"ws"}
+  - {"type":"vless","name":"@confiig_vpn","server":"65.109.193.173","port":28545,"uuid":"c9441e0f-41ba-4370-daa7-a29107b57b33","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vmess","name":"telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2","http-opts":{"path":["/"],"headers":{"Host":["speedtest.net"]}},"server":"91.107.177.40","port":"81","uuid":"e96dd2d5-89c8-4ebd-a8f6-49db27530e80","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vless","name":"H5(@Outline_Vpn)","server":"159.223.248.183","port":443,"uuid":"bb18e29e-38dc-4dea-9de1-4c536dc40d44","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vmess","name":"چنلمون👈proxyorj@","http-opts":{"path":["/"],"headers":{"Host":["Bmw.com"]}},"server":"pv.faroo.space","port":"15","uuid":"8429c8d9-5867-45af-e80d-ea3e0b961e99","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vless","name":"@freeiranweb","server":"104.31.16.3","port":8443,"uuid":"7ec51516-d55f-4d06-a46f-9db924c2ac38","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"Netazad22-chanel-for-you-76484g83636.shikposhan.fun","ws-opts":{"path":"/@netazad22
+    (کانال
+    تلگرام)","headers":{"host":"Netazad22-chanel-for-you-76484g83636.shikposhan.fun"}}}
+  - {"type":"vless","name":"H8(@Outline_Vpn)","server":"165.227.138.170","port":55980,"uuid":"a079ccbe-6ad5-45c5-c4ed-d25f885a4709","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"vless","name":"@amir_eskandarian1-reality1","server":"de.melov2ray.shop","port":45314,"uuid":"2777de98-2a21-45bc-a1e3-d255086c7710","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"discord.com","tls":false,"udp":true}
+  - {"type":"vless","name":"@VPNPMIR+✓+All+Operators+〽️","server":"65.108.156.8","port":12895,"uuid":"081510dd-254a-44f7-d33e-7b4ebe59ff51","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+  - {"type":"ss","name":"channel+telegram:@v2rayNG_WED+|+all✔️_3","server":"ak1694.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"✅️Join@FreenapsternetV31","server":"54.36.174.181","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vless","name":"⚜️+@vless021+⚜️+|+Mtn🔥🔥","server":"shop240.globalingredients.pe","port":2083,"uuid":"7e88e86d-2441-4587-98c3-853695874264","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"p1.goodpings.website"}
+  - {"type":"vmess","name":"کانالتلگرام👈filtershekan_channel@_2","http-opts":{"path":["/"],"headers":{"Host":["uplod.ir"]}},"server":"tr.gamecentervip.site","port":"443","uuid":"d49e2bf0-c652-4a72-b153-b122ab2f23d6","alterId":"0","cipher":"auto","network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,32 +352,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Reality+2_1
-      - '@v2rayngrit🌀_1'
-      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
-      - '@Maznet_1'
-      - '@confiig_vpn_1'
-      - '@confiig_vpn_2'
-      - '@MehradLearn|مرگبردیکتاتور'
-      - '@vmesskhodam🤍'
-      - Reality+2_2
-      - '@v2rayngrit🌀_2'
+      - کانالتلگرام👈filtershekan_channel@_1
+      - WomanLifeFreedom
       - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_1
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_3
-      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_4
-      - Channel+id:+🇩🇪
-      - '@Maznet_2'
-      - کانالتلگرام👈filtershekan_channel@
-      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
-      - کانال+تلگرام+👈+|+FAST_IR@
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
-      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤
-      - کانال+تلگرام👈@vpnarg😐
-      - کانال+تلگرام👈@vpnarg❤️
+      - کانال+تلگرام👈filtershekan_channel@
+      - ✅️Join@FreenapsternetV15
+      - '@MehradLearn|مرگبردیکتاتور'
+      - '@v2rayngrit🌀'
+      - '@melov2ray-reality4'
+      - '@vmesskhodam🤍'
       - همراه-وایفای+قدرتی+کانال+تلگرام👈@vpnarg
+      - '@melov2ray-reality3'
+      - '@injectorCuatomVpn'
+      - '@Maznet'
+      - channel+telegram:@v2rayNG_WED+|+سرعتی🪤✔️
+      - '@parsashonam+-Germany🇩🇪+mtn'
       - کانال+تلگرام👈@vpnarg🇩🇪
+      - channel+telegram:@v2rayNG_WED+|+all✔️_1
+      - channel+telegram:@v2rayNG_WED+|+all✔️_2
+      - کانال+تلگرام+👈+|+FAST_IR@
+      - H7(@Outline_Vpn)
+      - کانال+تلگرام👈@vpnarg❤️
+      - 📍@Gp_proxy_vpn+👈گروه+کانفیگ
+      - Reality+2
+      - T.me/SafeNet_Server+💚🤍❤
       - کانال+تلگرام👈@vpnarg
+      - Reality+1
+      - MTN@VPNS_IR
+      - 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺:🐁@𝘀𝗼𝘀𝗼𝗳𝗮𝗿𝘀𝗶
+      - '@confiig_vpn'
+      - telegramchannel:@v2rayNG_WED<<اگهقطعشدبیااینجا|🇩🇪_2
+      - H5(@Outline_Vpn)
+      - چنلمون👈proxyorj@
+      - '@freeiranweb'
+      - H8(@Outline_Vpn)
+      - '@amir_eskandarian1-reality1'
+      - '@VPNPMIR+✓+All+Operators+〽️'
+      - channel+telegram:@v2rayNG_WED+|+all✔️_3
+      - ✅️Join@FreenapsternetV31
+      - ⚜️+@vless021+⚜️+|+Mtn🔥🔥
+      - کانالتلگرام👈filtershekan_channel@_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
